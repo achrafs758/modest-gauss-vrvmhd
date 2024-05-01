@@ -24,30 +24,13 @@ function App() {
       MarkersPlugin,
       {
         // list of markers
-        markers: [
-          {
-            // image marker that opens the panel when clicked
-            id: "image",
-            position: { yaw: "95deg", pitch: "16deg" },
-            image: "pin-red.png",
-            anchor: "bottom center",
-            size: { width: 32, height: 32 },
-            tooltip: "Monte Civetta, Dolomites, Italy",
-          },
-        ],
+
       },
     ],
     [
       LensflarePlugin,
       {
         // list of lensflares
-        lensflares: [
-          {
-            id: "sun",
-            position: { yaw: "145deg", pitch: "2deg" },
-            type: 0,
-          },
-        ],
       },
     ],
   ];
@@ -56,7 +39,7 @@ function App() {
     <div className="App">
       <ReactPhotoSphereViewer
         ref={photoSphereRef}
-        src="Test_Pano.jpg"
+        src="test4.png"
         littlePlanet={true}
         lang={{
           littlePlanetButton: "Little Planet",
