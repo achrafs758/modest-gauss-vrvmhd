@@ -6,6 +6,7 @@ import {
   LensflarePlugin,
 } from "react-photo-sphere-viewer";
 import "@photo-sphere-viewer/markers-plugin/index.css";
+// added comment
 
 function App() {
   const photoSphereRef = React.useRef();
